@@ -1,14 +1,9 @@
 {
     "name": "name",
     "version": "1.0.0",
-    "description": "project cli",
+    "description": "template project",
     "main": "./src/index.js",
-    "private": true,
     "license": "MIT",
-    "author": {
-        "email": "junyan.zheng@ximalaya.com",
-        "name": "zjy"
-    },
     "scripts": {
         "start-dev": "node ./scripts/start.js --dev",
         "build-dev": "node ./scripts/dev.js",
@@ -21,7 +16,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git@gitlab.ximalaya.com:cbp/fem/component/cbp.git"
+        "url": "git@gitlab.ximalaya.com:cbp/fem/component/cbp-template.git"
     },
     "devDependencies": {
         "@babel/core": "^7.3.4",
