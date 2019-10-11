@@ -1,0 +1,58 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly",
+        "config": "readonly",
+        "xmLog": "readonly",
+        "xmPlayer": "readonly",
+        "emitter": "readonly",
+        "$": "readonly",
+        "wx": "readonly",
+        "_hmt": "readonly",
+        "JSEncrypt": "readonly"
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "allowImportExportEverywhere": true
+    },
+    "plugins": ["react"],
+    "rules": {
+        "indent": ["warn", 4, { "SwitchCase": 1 }],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/jsx-indent": ["warn", 4],
+        "no-alert": "off",
+        "no-console": "off",
+        "no-global-assign": "off",
+        "prefer-const": "off",
+        "func-names": "off",
+        "spaced-comment": "off",
+        "no-var": "off",
+        "vars-on-top": "off",
+        "no-plusplus": "off",
+        "no-underscore-dangle": "off",
+        "lines-between-class-members": "off",
+        "prefer-arrow-callback": "off",
+        "space-before-function-paren": "off",
+        "no-else-return": "off",
+        "no-lonely-if": "off",
+        "prefer-template": "off",
+        "import-newline-after-import": "off",
+        "no-unused-vars": "off",
+        "react/prop-types": "off",
+        "no-case-declarations": "off",
+        "no-extra-boolean-cast": "off",
+        "no-empty": "off",
+        "require-yield": "off",
+        "no-debugger": "off"
+    }
+}
