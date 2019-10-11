@@ -1,3 +1,3 @@
 ## wws-c-cli
 
-This is a cli for wws.
+This is a template project.
